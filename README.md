@@ -41,12 +41,12 @@ Buggle es un sistema integral de gestión de logs diseñado para facilitar la tr
 1. Clonar el repositorio madre:
 
    ```bash
-   git clone --recurse-submodules https://github.com/JorgeCarrascoF/proyecto-footalent
+   git clone --recurse-submodules https://github.com/JorgeCarrascoF/buggle
    ```
 
     Para instalar este proyecto, debe añadirse la opción --recurse-submodules al hacer git clone para añadir los submódulos. En caso de haber clonado sin esa opción, podemos inicializar los submódulos manualmente con:
 
-        cd proyecto-footalent
+        cd buggle
         git submodule update --init --recursive
 
 2. Instalar dependencias:   
@@ -80,7 +80,7 @@ Buggle es un sistema integral de gestión de logs diseñado para facilitar la tr
 
 ## Estructura de carpetas
 ```
-📦my-project/
+📦buggle/
 ├── 📁frontend/
 │   ├── 📁public/               # Archivos estáticos (imágenes, favicon, etc)
 │   ├── 📁src/                  # Código fuente React
